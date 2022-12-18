@@ -1,0 +1,89 @@
+// on front-page.php
+
+.about {
+	background-color: $beige;
+	color: $blue;
+	padding-bottom: 150px;
+}
+
+.about h2 {
+	padding-top: 150px;
+}
+
+.about h5 {
+	text-align: center;
+}
+
+.about p {
+	margin-bottom: 0;
+
+	@media (max-width: 940px) {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
+
+.about a {
+	color: #000;
+}
+
+.about a:hover {
+	color: $gold;
+}
+
+.skills li {
+	list-style-type: none;
+	font-size: 16px;
+	line-height: 1.8em;
+	// float: left;
+}
+
+.skills h2 {
+	text-align: center;
+	padding-top: 50px;
+}
+
+.skills h3 {
+	text-align: center;
+}
+
+.skill {
+	float: left;
+	width: 20%;
+
+	@media (max-width: 900px) {
+		width: 23%;
+	}
+
+	@media (max-width: 768px) {
+		width: 46%;
+	}
+
+	@media (max-width: 500px) {
+		width: 89%;
+	}
+}
+
+.skill:nth-child(3),
+.skill:nth-child(4) {
+	@media (max-width: 768px) {
+		margin-top: 30px;
+	}
+}
+
+.skill:first-child {
+	margin-left: 8%;
+
+	@media (max-width: 900px) {
+		margin-left: 3%;
+	}
+
+	@media (max-width: 768px) {
+		margin-left: 0;
+	}
+}
+
+.skill ul {
+	text-align: center;
+	padding-left: 0;
+}

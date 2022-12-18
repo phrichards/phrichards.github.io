@@ -1,0 +1,113 @@
+// this is portfolio.php
+
+.portfolio-full {
+	width: 100%;
+	background: $blue;
+}
+
+.portfolio-full h2 {
+	margin-top: 0;
+	padding-top: 150px;
+	text-align: center;
+}
+
+.portfolio-item {
+	width: 33%;
+	float: left;
+	min-height: 580px;
+
+	@media (max-width: 1024px) {
+		width: 50%;
+	}
+
+	@media (max-width: 768px) {
+		width: 100%;
+	}
+}
+
+.portfolio-item img {
+	@media (max-width: 375px) {
+		width: 90%;
+	}
+}
+
+h3.portfolio-item-title {
+	text-align: center;
+}
+
+a.portfolio-link {
+	text-decoration: none;
+	color: $gold;
+}
+
+a.portfolio-link:hover {
+	color: #FFF;
+}
+
+.portfolio-description {
+	text-align: center;
+}
+
+.portfolio-terms {
+	padding-bottom: 70px;
+	text-align: center;
+	font-size: 0.75em;
+	text-transform: uppercase;
+}
+
+.images {
+	@media (max-width: 768px) {
+		margin-left: 24%;
+	}
+
+	@media (max-width: 667px) {
+		margin-left: 20%;
+	}
+
+	@media (max-width: 640px) {
+		margin-left: 19%;
+	}
+
+	@media (max-width: 480px) {
+		margin-left: 10%;
+	}
+}
+
+.image {
+	position: relative;
+}
+
+// .svg-imgoverlay {
+// 	position: absolute;
+// }
+
+.overlay {
+	display: none;
+    width: 93%;
+    height: 98%;
+    position: absolute;
+    background-color: #000;
+    opacity: 0.7;
+}
+
+.overlay h3,
+.overlay p {
+	display: none;
+}
+
+// .image:hover > .overlay h3 {
+// 	display: block;
+// 	position: absolute;
+// 	top: 10%;
+// 	width: 100%;
+// 	text-align: center;
+// }
+
+// .image:hover > .overlay p {
+// 	display: block;
+// 	position: absolute;
+// 	top: 60%;
+// 	text-align: center;
+// 	width: 100%;
+// }
+

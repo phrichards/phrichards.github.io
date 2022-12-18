@@ -1,0 +1,79 @@
+footer {
+	background-color: $blue;
+	padding-bottom: 150px;
+
+	@media (max-width: 480px) {
+		padding-bottom: 165px;
+	}
+}
+
+footer h2 {
+	margin-top: 0;
+	padding-top: 150px;
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+footer p {
+	margin: 0;
+}
+
+footer svg {
+	height: 50px;
+	width: 50px;
+	stroke: #FFF;
+	fill: #FFF;
+	// float: left;
+	margin-right: 10%;
+
+	@media (max-width: 800px) {
+		margin-right: 8%;
+	}
+
+	@media (max-width: 620px) {
+		margin-right: 6%;
+	}
+
+	@media (max-width: 500px) {
+		margin-right: 4%;
+	}
+
+	@media (max-width: 480px) {
+		width: 16%;
+		float: left;
+		margin-left: 11%;
+		margin-bottom: 45px;
+	}
+}
+
+footer ul {
+	display: flex;
+	justify-content: space-around;
+
+	li {
+		flex: 0 1 auto;
+		list-style-type: none;
+	}
+}
+
+.svg-mail {
+	margin-left: 8%;
+
+	@media (max-width: 480px) {
+		margin-left: 5%;
+	}
+}
+
+.svg-linkedin svg {
+	margin-right: 0;
+}
+
+svg:hover {
+	stroke: $gold;
+	fill: $gold;
+}
+
+.comments-footer {
+	background: $beige;
+	padding-bottom: 0;
+}

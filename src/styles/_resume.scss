@@ -1,0 +1,90 @@
+.container.resume {
+    color: #000;
+    margin-top: 20px;
+
+    p {
+        line-height: 28px;
+    }
+
+    header {
+        background: #fff;
+
+        img {
+            width: 30%;
+            margin: 0;
+            float: left;
+            padding-right: 20px;
+        }
+
+        h1 {
+            font-size: 3em;
+            padding-top: 75px;
+            margin-bottom: 10px;
+        }
+
+        .slogan {
+            float: left;
+            width: 100%;
+            
+            h2 {
+                margin-top: 0;
+                margin-bottom: 20px;
+                font-size: 1.4em;
+            }
+        }
+    }
+    
+
+    h1, h2, h3, h4, h5, h6 {
+        text-transform: initial;
+        color: $gold;
+    }
+
+    h3 {
+        text-align: left;
+        border-bottom: 2px solid $gold;
+    }
+
+    .education-skills, .experience-projects {
+        float: left;
+    }
+
+    .education {
+        float: right;
+        width: 40%;
+    }
+
+    .skills {
+        float: left;
+        width: 40%;
+
+        .skills-left {
+            float: left;
+            width: 50%;
+
+            p {
+                margin-top: 0;
+            }
+        }
+
+        .skills-right {
+            float: right;
+            width: 50%;
+
+            p {
+                margin-top: 0;
+            }
+        }
+    }
+
+    .projects {
+        float: right; 
+        width: 40%;
+    }
+
+    .experience {
+        float: left;
+        width: 40%;
+    }
+}
+
